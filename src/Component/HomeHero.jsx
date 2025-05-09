@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Typewriter } from "react-simple-typewriter";
-
+import huzaifa from "../assets/huzaifa.PNG" // Adjust the path as necessary
 const HomeHero = () => {
   return (
     <section
@@ -58,7 +58,7 @@ const HomeHero = () => {
       >
         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-zinc-500 shadow-xl">
           <img
-            src="./src/assets/huzaifa image.PNG"
+            src={huzaifa}
             alt="Profile"
             className="object-cover w-full h-full"
           />
