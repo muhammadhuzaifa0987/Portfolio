@@ -1,4 +1,8 @@
-[
+import React from 'react'
+
+export const projectsData = () => {
+  return (
+    [
     {
       "title": "E-Commerce App",
       "description": "A full-stack ecommerce app with Firebase Auth, product filters, and responsive UI.",
@@ -40,4 +44,6 @@
       
     }
   ]
+  )
+}
   
